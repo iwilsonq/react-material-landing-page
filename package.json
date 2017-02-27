@@ -1,0 +1,40 @@
+{
+  "name": "react-material-landing-page",
+  "version": "1.0.0",
+  "description": "Scaffold your full stack react apps today!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "NODE_ENV=production npm run clean && webpack -p",
+    "clean": "rimraf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iwilsonq/react-material-landing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iwilsonq/react-material-landing-page/issues"
+  },
+  "homepage": "https://github.com/iwilsonq/react-material-landing-page#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "url-loader": "^0.5.8"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-env": "^1.1.7",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.26.0",
+    "rimraf": "^2.6.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.0-rc.0",
+    "webpack-dev-middleware": "^1.9.0"
+  }
+}
